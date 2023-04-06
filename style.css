@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding: 30px 40px;
+    background-color: #466bb3;
+    width: 100%;
+    color: aliceblue;
+}
+
+header .left {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    display: inline-block;
+}
+
+.left img {
+    width: 180px;
+    color: aliceblue;
+}
+
+.right div {
+    display: inline-block;
+}
+
+.right ul {
+    display: inline-block;
+}
+
+main {
+    clear: both;
+    padding: 40px;
+}
+
+.s {
+    color: aliceblue;
+}
+
+.left-menu {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.right-menu {
+    float: right;
+    display: inline-block;
+    margin-right: 20%;
+}
+
+.heading {
+    margin-top: 40px;
+}
+
+h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.left-menu img {
+    width: 30px;
+    margin-right: 9px;
+
+}
+
+.input-text {
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 10px;
+}
+
+.input-names {
+    width: 360px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.para {
+    font-weight: bold;
+}
+
+span {
+    color: #466bb3;
+}
+
+.login {
+    background-color: #466bb3;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.create-b {
+    background-color: green;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
